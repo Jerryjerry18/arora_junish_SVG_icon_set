@@ -28,10 +28,7 @@ body{
 .hidden{
 	display: none;
 }
-.icons{
-	text-align: center;
-	padding: 40px;
-	}
+
 .icon h2{
 	font-size: 2em; margin: 10px,0;}
 
