@@ -29,6 +29,9 @@ body{
 	display: none;
 }
 
+
+
+
 .icon h2{
 	font-size: 2em; margin: 10px,0;}
 
@@ -56,6 +59,8 @@ body{
 .icons div img {
     width: 60%;
     cursor: pointer;
+    filter: opacity(100%);
+    transition: 0.5 ease-in;
 }
 
 
@@ -85,3 +90,12 @@ h2::before{
 h2 span{
     color: red;
 }
+
+
+.icons div:hover {
+    filter: opacity(23%);
+    transition: 0.5 ease-out;
+}
+
+
+
